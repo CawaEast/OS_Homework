@@ -27,6 +27,7 @@ int main(int argc, char* argv[]) {
 					} else {
 						status_in = -1;
 						close(fdin);
+
 						return 1;
 					}
 				}

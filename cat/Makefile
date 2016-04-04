@@ -1,4 +1,4 @@
-target:cat delete
+target:cat
 delete:
 	rm -f *.o
 cat.o: cat.c
@@ -6,4 +6,4 @@ cat.o: cat.c
 cat: cat.o
 	gcc -s cat.o -o cat
 clean: 
-	rm -f cat
+	rm -f cat *.o
